@@ -1,0 +1,130 @@
+.experiences-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #d1fae5 0%, #ccfbf1 100%);
+  padding: 2rem;
+}
+
+.experiences-card {
+  max-width: 1000px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  padding: 3rem;
+}
+
+.experiences-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.experiences-icon {
+  color: #10b981;
+  width: 32px;
+  height: 32px;
+}
+
+.experiences-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.experiences-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-item {
+  position: relative;
+  padding-left: 2rem;
+  border-left: 4px solid #10b981;
+}
+
+.experience-dot {
+  position: absolute;
+  left: -14px;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  background-color: #10b981;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.experience-content {
+  background: linear-gradient(135deg, #d1fae5 0%, #ccfbf1 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.experience-content:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.experience-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.experience-company {
+  color: #10b981;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-period {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.experience-description {
+  color: #4b5563;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.experience-achievements-title {
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-achievements {
+  list-style-position: inside;
+  color: #4b5563;
+}
+
+.experience-achievements li {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .experiences-card {
+    padding: 2rem;
+  }
+  
+  .experience-item {
+    padding-left: 1.5rem;
+  }
+  
+  .experience-content {
+    padding: 1rem;
+  }
+}

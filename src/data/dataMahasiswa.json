@@ -1,0 +1,52 @@
+{
+  "name": "Amrul Haq Al-Bina'i",
+  "nim": "L200230279",
+  "major": "Teknik Informatika",
+  "classYear": "Angkatan 2023",
+  "location": "Surakarta, Jawa Tengah",
+  "views": 127,
+  "description": "Mahasiswa UMS dengan minat pada pengembangan web fullstack.",
+  "photo": "/profile.jpg",
+
+  "skills": [
+    { "name": "ReactJS", "level": "Beginner", "percentage": 100, "category": "Main" },
+    { "name": "Django REST Framework", "level": "Beginner", "percentage": 46, "category": "Main" },
+    { "name": "Tailwind CSS", "level": "Beginner", "percentage": 76 },
+    { "name": "SQL", "level": "Beginner", "percentage": 83 },
+    { "name": "python", "level": "Beginner", "percentage": 33 },
+    { "name": "Django", "level": "Beginner", "percentage": 53 },
+    { "name": "JavaScript", "level": "Beginner", "percentage": 52 },
+    { "name": "HTML", "level": "Beginner", "percentage": 85 },
+    { "name": "CSS3", "level": "Beginner", "percentage": 33 }
+  ],
+
+  "experience": [
+    {
+      "role": "FullStack Developer",
+      "type": "project",
+      "company": "Freelance Project",
+      "start": "Oct 2024",
+      "end": "Present",
+      "status": "Current",
+      "desc": "Membangun API backend UMKM menggunakan DRF dan PostgreSQL.",
+      "tags": ["Django", "DRF", "PostgreSQL"]
+    },
+    {
+      "role": "Frontend Developer Intern",
+      "type": "internship",
+      "company": "PT Digital Solusi Nusantara",
+      "start": "Jul 2024",
+      "end": "Sep 2024",
+      "desc": "Mengembangkan antarmuka dashboard internal menggunakan React.",
+      "tags": ["ReactJS", "Tailwind CSS"]
+    },
+    {
+      "role": "Head of Web Development Division",
+      "type": "organization",
+      "company": "UKM Informatika UMS",
+      "start": "Jan 2023",
+      "end": "Dec 2023",
+      "desc": "Mengkoordinasi tim pengembang web untuk kegiatan UKM."
+    }
+  ]
+}
